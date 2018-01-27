@@ -11,23 +11,24 @@ $(".pending-requests").hide();
 vols.forEach((item) => {
     $(".available-volunteers").append(
         `<div class="card border-success mb-3" style="max-width: 18rem;">
-        <div class="card-header">${item}</div>
-        <div class="card-body text-success">
-            <p class="card-text">${item}'s request description</p>
-        </div>
-</div>`);
+            <div class="card-header">${item}</div>
+            <div class="card-body text-success">
+                <p class="card-text">${item}'s request description</p>
+            </div>
+        </div>`
+    );
 });
 
-pendingVols.forEach((vol)=>{
-    pendingTimes.forEach((time)=>{
+pendingVols.forEach((vol) => {
+    pendingTimes.forEach((time) => {
         $(".pending-requests").append(
             `<div class="card border-info mb-3" style="max-width: 18rem;">
-            <div class="card-header">${vol}</div>
-            <div class="card-body text-info">
-              <p class="card-text">Requested Time: ${time}</p>
-            </div>
+                <div class="card-header">${vol}</div>
+                <div class="card-body text-info">
+                <p class="card-text">Requested Time: ${time}</p>
+                </div>
             </div>`
-        )
+        );
     });
 });
 
