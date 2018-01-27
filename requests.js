@@ -15,7 +15,7 @@ vols.forEach((item) => {
             <div class="card-body text-success">
                 <p class="card-text">${item}'s request description</p>
             </div>
-        </div>`
+        </div>` 
     );
 });
 
