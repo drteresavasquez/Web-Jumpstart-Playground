@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Slab|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Volunteers</title>
+</head>
+<body>
+    <h1>Volunteers</h1>
+    <div class = "container">
+    <form id="selection">
+        <div>
+          <span>I want to </span>
+          <select id="select-volunteer-request">
+            <option value="volunteer">volunteer my time</option>
+            <option value="request">make a request</option>
+          </select>
+          <button type="submit" class="select-volunteer-request-button btn btn-dark">Select</button>
+        </div>
+    </form>
+
+
+          <form class = "volunteer-form">
+        <div class="form-group">
+          <label for="name">Superhero Name</label>
+          <input type="text" class="form-control" id="volunteerFormName" placeholder="Batman">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="volunteerFormEmail" placeholder="name@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Available Time</label>
+          <input type="text" class="form-control" id="volunteerFormTime" placeholder="9 AM to 4 PM">
+        </div>
+        <button type="submit" class="btn btn-dark volunteer-form-submit-button">Submit</button>
+      </form>
+         
+         
+         <form class = "request-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="requestFormName" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="requestFormEmail" placeholder="name@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Request Description</label>
+          <textarea class="form-control" id="requestFormDescription" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark request-form-submit-button">Submit</button>
+      </form>
+         
+      </div> 
+
+
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="volunteers.js"></script>
+</body>
+</html>

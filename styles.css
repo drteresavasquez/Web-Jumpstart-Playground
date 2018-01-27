@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  
+  #output-places {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .allImages {
+    width: 100%;
+  }
