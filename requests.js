@@ -13,7 +13,7 @@ vols.forEach((item) => {
         `<div class="card border-success mb-3" style="max-width: 18rem;">
             <div class="card-header">${item}</div>
             <div class="card-body text-success">
-                <p class="card-text">${item}'s request description</p>
+                <p class="card-text">${item}'s request description for request</p>
             </div>
         </div>` 
     );
