@@ -1,14 +1,52 @@
 body {
-    background-color: lightblue;
-    font-family: 'Dosis', sans-serif;
-  }
-  
-  
-  #output-places {
-    display: flex;
-    justify-content: right;
-  }
-  
-  .allImages {
-    width: 100%;
-  }
+  background-color: #C0C0C0;
+}
+
+.main-logo {
+  font-family: 'Monoton', cursive;
+}
+
+.home-page-description {
+  padding: 5em;
+  font-family: 'Yatra One', cursive;
+}
+
+.social-media-icon {
+  width: 50px;
+}
+
+.outer-flex-container {
+  background-color: rgb(51,51,51);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+
+.inner-flex-container-left {
+  display: flex;
+  flex-direction: column;
+  flex: 0 30%;
+}
+
+.inner-flex-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 2em;
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+.buttons-spots{
+  padding-top:30px;
+  margin: auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.requests-button, .volunteers-button{
+    margin-bottom: 15px;
+}
+.volunteers-section, .requests-section{
+  margin-bottom: 15px;
+}

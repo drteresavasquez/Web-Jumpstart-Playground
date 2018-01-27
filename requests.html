@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Requests Page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Yatra+One|Libre+Barcode+128+Text" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--   Nav bar from Bootstrap
+   -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <h1 class="main-logo">Superhero Volunteers</h1>
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/requests.html">Request Assistance</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/volunteers.html">Volunteer Your Time</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="pages/team.html">Meet the Team</a>
+          <a class="dropdown-item" href="pages/contact.html">Contact Us</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+  
+  
+  
+  
+   <div class="buttons-spots">
+    <section class="volunteers-section">
+      <button type="button" class="btn btn-dark btn-lg btn-block volunteers-button">See Available Volunteers</button>
+    <div class="available-volunteers">
+            
+    </div>
+      
+    </section>
+     
+    <section class="requests-section">
+      <button type="button" class="btn btn-dark btn-lg btn-block requests-button">See Pending Requests</button>
+    <div class="pending-requests">
+            
+    </div>
+    </section>  
+  </div>
+  
+  
+  
+  
+  
+  <!--   Footer using Flexbox
+   -->
+  <div class = "outer-flex-container">
+    <div class = "inner-flex-container-left">
+      <div class="flex-container-left-item">
+          <h4 class="main-logo">Superhero Volunteers</h4>
+        </div>
+        <div class="flex-container-left-item">
+          <p class="footer-paragraph">Tomorrow, you will be released. If you are bored of brawling with thieves and want to achieve something there is a rare blue flower that grows on the eastern slopes. Pick one of these flowers. If you can carry it to the top of the mountain, you may find what you were looking for in the first place.
+</p>
+        </div>
+        <div class="flex-container-left-item">
+          <img class="social-media-icon" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-128.png" alt="Facebook Icon">
+          <img class="social-media-icon" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/twitter_online_social_media-128.png" alt="Twitter Icon">
+          <img class="social-media-icon" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/instagram_online_social_media_photo-128.png" alt="Instagram Icon">
+          <img class="social-media-icon" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/youtube_online_social_media_tube-128.png" alt="Youtube Icon">
+        </div>
+    </div>
+    <div class ="inner-flex-container-right">
+      <div class="flex-container-right-item">
+          <p>123 Main Street</p>
+          <p>Freedomville, TX 12345</p>
+        </div>
+        <div class="flex-container-right-item">
+          <p>101-202-3003</p>
+        </div>
+        <div class="flex-container-right-item">
+          <p>support@superherovolunteers.com</p>
+        </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="requests.js"></script>
+</body>
+</html>
